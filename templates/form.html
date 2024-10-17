@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <!-- Centered viewport -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css"
+>
+    <title>{{ title }}</title>
+</head>
+<body>
+<header>
+    <h1>MovieDB</h1>
+    <p>By Shibin Mon</p>
+</header>
+<main>
+<form method="get" action="/movie">
+    <label for="movie">Enter name of movie: </label>
+    <input type="text" placeholder="movie name" id="movie" name="title" required/>
+    <label for="year">Enter year: </label>
+    <input type="number" placeholder="eg. 2024" id="year" name="year"/>
+    <button type="submit">Let's Go!</button>
+</form>
+        </main>
+</body>
+</html>

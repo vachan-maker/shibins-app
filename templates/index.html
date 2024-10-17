@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Fluid viewport -->
+<!-- Centered viewport -->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.classless.min.css"
+>
+    <title>{{ title }}</title>
+</head>
+<body>
+<header>
+    <h1>MovieDB</h1>
+    <p>By Shibin Mon</p>
+</header>
+<main>
+    <article>
+    <h1>{{ title }}</h1>
+    <p><strong>Year:</strong> {{ year }}</p>
+    <p><strong>Genre:</strong> {{ genre }}</p>
+    <img src="{{ poster}}" alt="Poster of the movie {{ title }}"/>
+    <p><strong>Plot:</strong> {{ plot }}</p>
+</article>
+    </main>
+</body>
+</html>

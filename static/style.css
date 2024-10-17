@@ -1,0 +1,15 @@
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    padding: 2rem;
+    border: 2px solid black;
+}
+img {
+    width: 50%;
+    height: auto;
+    margin: 0 auto;
+}
